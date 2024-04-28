@@ -1,0 +1,10 @@
+button sürekli bırak ile forma bıraktın sonra üstüne çift tıkladığında.
+formun kod kısmına geçiyorsun burada button1_click gibi bir method var buraya yazdığın komutlar ile 
+butona basıldığında tetikleniyor.
+
+--> MessageBox
+
+MessageBox.Show("Hello world"); 
+
+bunu yazdığında zaman bir tane mesaj kutusu açılıyor ve içinde hello world yazıyoz.
+

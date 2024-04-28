@@ -1,0 +1,14 @@
+--> MaskedTextBox
+
+    mesela Telefon ayarını eklersen telefon alışı için özelleştirilmiş bir alan olur.
+    numeric diyip mask: a 11 tane 0 girersen 11 tane sayı alacağını belirtirsin.
+
+--> PictureBox
+
+    Picture box ile eklediğin görsel otomatik olarak projeye eklenir daha sonra projede olup olmaması ile uğraşmazsın
+
+--> DataTimePicker
+
+    Date ve time seçmek için hazır oluşturulmuş bir combobox gibi sonra buradan gelen verileri bir listboxa yada labele atayabilirsin.
+
+    

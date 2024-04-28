@@ -1,0 +1,13 @@
+--> labellar bildiğin bir ürünün etiketi gibi yazılardır. Bu yazıları bir butona tıklandığında tetikleyip değiştirebilrisin.
+    yada örnek veriyor textboxtan bir mesaj alman gerekiyordur. Bu mesajın ne olacağını textbox ın yanına bir label atarak belirtirsin
+    mesela label a name yazarsın yanında textbox'a isim yazmamız gerektiğini anlamış oluruz.
+
+        label2.Text="name";
+
+--> bu hint olayını text box'ın içine yazarak da yapabilirsin.
+
+        textBox1.Text = "İsim giriniz...";
+
+--> textBox içindeki stringi labela yazma 
+
+        label2.Text = textBox1.Text;

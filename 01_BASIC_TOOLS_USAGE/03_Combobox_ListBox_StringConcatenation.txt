@@ -1,0 +1,31 @@
+--> ComboBox 
+
+    Form'un fontunu değiştirirsen üzerine koyduğun komponentlerde o özellikleri alır.
+
+    çoklu seçim aracı diyebilirsin.
+
+    kod kısmından öğe eklemek için button'un click methoduna gel veriyor
+
+        comboBox1.Items.Add("Antalya");
+
+    yada 
+
+        comboBox1.Items.Add(textBox1.Text);
+
+--> ListBox 
+
+    combobox ta liste yanındaki ok ile açılıyor ancak listboxta tamamı gözüküyor alt alta 
+
+        listBox1.Items.Add(textBox1.Text);
+
+    yada 
+
+        listBox1.Items.Add("Mühendis");
+
+    eğer ki listbox a veriler sığmazsa sağda kaydırma çubuğu çıkar.
+
+--> String concatenation
+
+        listBox1.Add(textBox1.text+" "+textBox2.text); 
+
+    bu şekilde iki tane textboxtan aldığın değerleri birleştirip tek bir string olarak listbox'a ekleyebilirsin.

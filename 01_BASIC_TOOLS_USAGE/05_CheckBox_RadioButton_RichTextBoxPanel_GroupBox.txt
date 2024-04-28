@@ -1,0 +1,23 @@
+--> CheckBox
+
+    iki tane durumu var ya true yada false.
+
+--> GroupBox
+
+    Araçları gruplamaya bir araya almaya yarıyor.
+    Default olarak çizgileri belli oluyor.
+
+--> RadioButton
+
+    checkboxlardaki gibi olmaz biri seçili ise diğeri seçemezsin.
+    kadın erkek gibi ikisi aynı anda olamazsın.
+
+--> Panel
+
+    Araçları bir araya almaya yarıyor.
+    Tasarımsal olarak daha çok kullanılıyor.
+    Groupboxtan farkı mesela rengi sen renk verince ayrılıyor.
+
+--> RichTextBox
+
+    Enter'a basılınca bir alt satıra geçebiliyorsun.

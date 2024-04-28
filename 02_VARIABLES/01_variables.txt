@@ -1,0 +1,50 @@
+
+DeğişkenTürü Değişken adi
+
+
+--> STRING 
+
+    string metin;
+
+    metin = "Merhaba Dünya";
+
+    String ad,soyad;
+
+    ad ="aykut";
+    soyad="mürkit";
+
+--> INTEGER
+
+        int sayi;
+        sayi = 59
+        label1.Text = sayi.ToString();   
+
+        int s1,s2,toplam;
+        s1 = 4;
+        s2 = 5;
+        toplam = s1 + s2;
+        label1.Text = toplam.ToString();
+
+        ## çevre hesaplama ##
+
+            int kenar, alan, cevre;
+            kenar = 10;
+            alan = kenar * kenar;
+            cevre = kenar * 4;
+            label1.Text = "alan: "+alan; // bu şekilde otomatik olarak tip dönüşümü yapabilirsin.
+
+        ## integer dönüşümü ##
+
+            3 tane integer dönüşümü var. ToInt16(), ToInt32,  ToInt64
+
+            int sayi;
+            sayi = Convert.ToInt16(textBox1.Text);
+
+            Convert. dedikten sonra bir sürü dönüşümler ortaya çıkar.
+
+
+        \n bir alt satıra geçirir.
+
+        
+     
+
