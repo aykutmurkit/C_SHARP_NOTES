@@ -45,6 +45,9 @@ DeğişkenTürü Değişken adi
 
         \n bir alt satıra geçirir.
 
+--> double
+
+
         
      
 
