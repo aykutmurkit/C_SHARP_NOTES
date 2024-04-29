@@ -58,5 +58,16 @@ DeğişkenTürü Değişken adi
         
     labe1.Text = ToString(0.00); // bu şekilde dersen virgülden sonra iki basamak istediğini belirtirsin.
 
+
+--> char 
+
+    tek karakterlik veriler.
+
+    çift tırnak değilde tek tırnak ile yazılrı
+
+    char takim;
+    takim = 'f'; /fenerbahçe için
+    label1.Text = takim.ToString();
+
     
 
