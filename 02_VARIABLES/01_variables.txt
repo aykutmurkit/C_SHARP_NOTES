@@ -47,7 +47,16 @@ DeğişkenTürü Değişken adi
 
 --> double
 
+    double sayi;
+    
+    //ondalıklı sayısı koddan girerken nokta ile ayırıyorsun klavyeden girersen virgül ile yapman lazım.
 
+    arayüz kısmında virgül olarak geliyor.
+
+    sayi = 3.14;
+    label1.Text = ToString();
         
-     
+    labe1.Text = ToString(0.00); // bu şekilde dersen virgülden sonra iki basamak istediğini belirtirsin.
+
+    
 
