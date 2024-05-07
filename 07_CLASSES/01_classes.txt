@@ -1,0 +1,35 @@
+
+
+--> class yazılması
+
+    namespace Test
+    {
+        class Araba
+        {
+            public string renk;
+            public string hiz;
+            public double motor;
+            public char durum;
+            public int fiyat;   
+        }
+    }
+
+    -------------------------------------------------
+
+    forma çift tıkladıktan sonra 
+
+    private void Form1_Load(object sender, EventArgs e)
+    {
+        Araba a1 = new Araba();
+        a1.renk= "Mavi";
+        a1.hiz=160;
+        a1.motor=1245.56;
+        a1.fiyat=10000000;
+        a1.durum='s';
+
+        label1.Text = a1.renk;
+        label2.Text = a1.hiz.ToString();
+        label2.Text = a1.motor.ToString();
+        label2.Text = a1.fiyat.ToString;
+        pictureBox1.BackColor = Color.red;
+    }
