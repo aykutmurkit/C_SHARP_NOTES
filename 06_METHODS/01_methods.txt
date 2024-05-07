@@ -1,0 +1,31 @@
+
+--> Methodlar
+
+    5 tip erişim belirleyicisi var
+
+    public
+    private
+    protected
+    internal
+    protected internal
+
+    bunu belirtmezsen otomatik olarak private olur.
+
+        private void temizle()
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textbox1.Focus();
+        }
+
+        -------------------
+
+        int Toplam(int s1,int s2)
+        {
+            int s3 = s1 + s2;
+            return s3;
+        }
+
+        ----------------------------------------------
+
+        
