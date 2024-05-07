@@ -1,0 +1,29 @@
+if yazdıktan sonra iki kere taba basarsan otomatik bir if bloğu oluşturuyor.
+
+--> if else
+
+    if yapısı java ile aynı 
+
+--> switch case
+
+    switch(ay){
+        case 1: label2.Text = "Ocak"; break;
+        case 2: label2.Text = "Şubat"; break;
+        case 3: label2.Text = "Mart"; break;
+        *
+        *
+        *
+        default:lavel2.Text = "tanımsız"; break;
+    }
+
+    string mevsim = textBox1.Text;
+    switch(mevsim){
+        case "yaz": label2.Text = "haziran temmuz ağustos";break;
+        case "sonhbahar": label2.Text = "eylül ekim kasım";break;
+        *
+        *
+        *
+        default: label2.Text = "hatalı mevsim"; break;
+    }
+
+    
