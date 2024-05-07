@@ -1,0 +1,14 @@
+
+--> Foreach(1234)
+
+    1=değişken türü
+    2=değişken adı 
+    3=in (içinden)
+    4=dizi adı
+
+
+        string[] kisiler = {"ayşe","fatma","hayriye"};
+        foreach (string k in kisiler)
+        {
+            listBox1.Items.Add(k);
+        }
