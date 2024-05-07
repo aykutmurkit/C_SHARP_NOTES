@@ -1,0 +1,9 @@
+timer isminde bir araç var. bu araç form ekranında gözükmüyor
+
+
+tick isminde bir methodu var verdiğin interval aralığında sürekli tetikleniyor.
+
+
+    timer1.Start(); // diyerek timerı başlatırsın.
+
+    timer1.Stop(); // diyerek timeri durdurursun.

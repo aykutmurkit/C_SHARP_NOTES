@@ -1,0 +1,21 @@
+
+Javada olduğu gibi 4 tamel döngü tipi var for,while,do/while ve for each;
+
+--> FOR 
+
+    java ile aynı.
+
+--> WHILE 
+
+    java ile aynı
+
+--> DO - WHILE
+
+    int i = 1;
+    
+    do
+    {
+     listBox1.Items.Add("Merhaba Aykut");
+     i++;   
+    }
+    while(i <= 10);

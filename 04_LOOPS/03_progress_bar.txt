@@ -1,0 +1,9 @@
+
+--> progressBar
+
+    progressBar1.Value = 75;
+
+
+timera bağlayıp timer her tetiklendiğinde value değerini bir artırabilirsin
+
+prograssbarı internal değerini 100 ise 100 geldiği zaman timer ı durdurursun.
