@@ -1,0 +1,7 @@
+
+chart1.Series["Kitap"].Points.AddXY("Akdeniz",5);
+chart1.Series["Kitap"].Points.AddXY("Ege",8);
+chart1.Series["Kitap"].Points.AddXY("Marmara",6);
+
+
+
