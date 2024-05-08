@@ -1,0 +1,7 @@
+
+menünün üstünde file edit gibi kısım var ya orası 
+
+ama bunun için kod üzerinde anlatamayacağım sanırım.
+
+@todo geri dön
+
