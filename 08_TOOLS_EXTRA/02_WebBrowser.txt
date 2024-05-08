@@ -1,0 +1,2 @@
+
+webBrowser.Navigate("www.google.com.tr");
