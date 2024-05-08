@@ -1,0 +1,69 @@
+
+
+
+
+*
+*
+*
+
+    namespace Ornek_console
+    {
+        class Ogrenci
+        {
+            public Ogrenci(){
+                Console.Writeline("Ben bir yapıcı methodum");
+            }
+        }
+    }
+
+
+*
+*
+*
+
+
+
+    namespace Ornek_console
+    {
+        class Program
+        {
+            static void Main(String[] args)
+            {
+                Ogrenci o = new Ogrenci();
+                Console.Read();
+            }
+        }
+    }
+
+
+    ---------------------------------------------------------------------------------------------
+
+
+
+*
+*
+*
+
+    namespace Ornek_console
+    {
+        class Ogrenci
+        {
+            public Ogrenci(string ad)
+            {
+                Console.WriteLine("Ad: "+ ad);
+            }
+        }
+    }
+
+
+    namespace Ornek_console
+    {
+        class Program
+        {
+            static void Main(String[] args)
+            {
+                Ogrenci o = new Ogrenci("aykut");
+                Console.Read();
+            }
+        }
+    }
