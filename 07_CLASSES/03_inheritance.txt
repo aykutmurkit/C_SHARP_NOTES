@@ -1,0 +1,16 @@
+namespace demo
+{
+    class Human : Animal
+    {
+
+        private string name;
+           
+
+            public string name{
+                get {return name;}
+                set {name = value;}
+            }
+
+
+    }
+}
