@@ -1,0 +1,38 @@
+
+
+bir paket içinde iki tane sınıf var bunlardan birisi main class diğeri mesaj isminde
+
+
+*
+*
+*
+
+namespace Ornek_console
+{
+    class Mesaj
+    {
+        public void metin()
+        {
+            Console.Write("Wake up Neo");
+        }
+    }
+}
+
+*
+*
+*
+
+
+
+namespace Ornek_console
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+            Mesaj msj = new Mesaj();
+            msj.metin();
+            Console.Read();
+        }
+    }
+}
