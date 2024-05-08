@@ -1,0 +1,20 @@
+
+
+*
+*
+*
+    namespace Company
+    {
+        class Employees
+        {
+            private string name;
+           
+
+            public string name{
+                get {return name;}
+                set {name = value;}
+            }
+
+
+        }
+    }
