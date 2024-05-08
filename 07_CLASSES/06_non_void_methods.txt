@@ -1,0 +1,35 @@
+*
+*
+*
+
+
+namespace Ornek_console
+{
+    class Islem
+    {
+       public int Topla(int s1,int s2)
+       {
+            int s3 = s2+s1;
+            Console.Write("Sonuc: "+s3);
+            return s3;
+       } 
+    }
+}
+
+
+*
+*
+*
+
+namespace Ornek_console
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+            Islem  isl = new Islem();
+            isl.topla(1,2);
+            Console.Read();
+        }
+    }
+}
