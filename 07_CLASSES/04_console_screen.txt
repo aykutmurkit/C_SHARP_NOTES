@@ -1,0 +1,28 @@
+
+Uygulamayı başlatırken windows form applications seçiyorduk.
+şimdi console applicationı seçeceksin 
+
+
+*
+*
+*
+
+
+namespace Ornek_console
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+            Console.Writeline("Merhaba"); // println gibi çalışıyor.
+            Console.Write("Dünya");
+
+
+            int sayi = 5;
+            Console.Write(sayi);
+            Console.Read();
+
+            Console.Readkey(); karakter okur ve kapatır Console.Read yapmazsan ;
+        }
+    }
+}
