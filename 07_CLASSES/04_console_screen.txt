@@ -26,3 +26,12 @@ namespace Ornek_console
         }
     }
 }
+
+
+*
+*
+*
+*
+
+string name;
+Console.ReadLine(); // scanner
