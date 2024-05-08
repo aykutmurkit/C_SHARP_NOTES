@@ -1,0 +1,17 @@
+form üzerinde sağ tıklayınca gelen menü 
+
+çalıştırmak için formun özelliklerinde sağda contextmenustrip diye bir alan var buradan constextMenuStrip1'i seç.
+
+
+mesela butona tıklandığında hesap makinesini çalştırmak istiyorsan
+
+*
+*
+*
+    System.Diagnostics.Process.Start("calc.exe");
+*
+*
+*
+
+paint için mspaint.exe dir.
+
